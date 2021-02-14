@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:clickable="true"
+    style="@android:style/Widget.ActionButton"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/cart_icon"
+        android:src="@drawable/ic_baseline_shopping_cart_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="0dp"
+        android:contentDescription="bell"
+        />
+
+    <TextView
+        android:layout_marginTop="-12sp"
+        android:layout_marginStart="16sp"
+        android:id="@+id/cart_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="17sp"
+        android:textSize="12sp"
+        android:textColor="#ffffffff"
+        android:gravity="center"
+        android:text="@null"
+        android:background="@drawable/badge_background"/>
+
+    </RelativeLayout>
+</ScrollView>
+

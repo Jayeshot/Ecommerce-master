@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Ecommerce</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_category">Shop By Category</string>
+    <string name="menu_orders">Your Orders</string>
+    <string name="menu_wishlist">Your Wishlist</string>
+    <string name="menu_account">Your Account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="UserInfo">UserInfo</string>
+    <string name="UserImage">UserImage</string>
+    <string name="Address">Address</string>
+    <string name="AllCategory">AllCategory</string>
+    <string name="ProductImage">ProductImage</string>
+    <string name="Admin">Admin</string>
+    <string name="Category">Category</string>
+    <string name="Cart">Cart</string>
+    <string name="UserCart">UserCart</string>
+    <string name="UserOrder">UserOrder</string>
+    <string name="CategoryData">CategoryData</string>
+    <string name="OrderInfo">OrderInfo</string>
+    <string name="Wishlist">WishList</string>
+    <string name="Search">Search</string>
+    <string name="ProductVariation">ProductVariation</string>
+    <string name="CategoryImage">CategoryImage</string>
+    <string name="UserProductRating">UserProductRating</string>
+    <string name="OrderRewards">OrderRewards</string>
+    <string name="Rupee">\u20B9</string>
+    <string name="AdminPanel">AdminPanel</string>
+    <string name="OrdersPerProduct">OrdersPerProduct</string>
+    <string name="AllOrders">AllOrders</string>
+    <string name="Confirmed">Confirmed</string>
+    <string name="AllOrdersDetail">AllOrdersDetail</string>
+    <string name="AllOrdersInfoDetail">AllOrdersInfoDetail</string>
+
+
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="20sp"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/raw_rate_us_layout">
+
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isIndicator="false"
+        android:numStars="5"
+        android:id="@+id/raw_rate_rateUs"
+        />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discard"
+        android:textColor="@color/orange"
+        android:textStyle="bold"
+        android:padding="3dp"
+        android:textSize="16dp"
+        android:id="@+id/raw_rateUs_discard_btn"
+        android:layout_below="@id/raw_rate_us_layout"
+        android:layout_toLeftOf="@id/raw_rateUs_btn"
+        android:layout_margin="10dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate Us"
+        android:textColor="@color/orange"
+        android:textStyle="bold"
+        android:padding="3dp"
+        android:textSize="16dp"
+        android:id="@+id/raw_rateUs_btn"
+        android:layout_below="@id/raw_rate_us_layout"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"></TextView>
+
+
+
+
+</RelativeLayout>
